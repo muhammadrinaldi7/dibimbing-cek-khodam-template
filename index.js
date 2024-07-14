@@ -9,14 +9,14 @@ const user = {
 
 alert("SELAMAT DATANG DI WEB KHODAM CEKK!!");
 
-// Kamu bisa mengerjakan soal no 1 dibawah sini 
+// Kamu bisa mengerjakan soal no 2 dibawah sini 
 user.name = prompt("Masukkan nama kamu:");
 
 
 
 
 
-// Kamu bisa mengerjakan soal no 2 dibawah sini 
+// Kamu bisa mengerjakan soal no 1 dibawah sini 
 let userInputPassword = prompt("Masukkan Password:");
 
 
