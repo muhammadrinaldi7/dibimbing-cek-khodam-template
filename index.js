@@ -9,12 +9,12 @@ const user = {
 
 const hari_lahir = {
   "senin" : "Macan Kumbang",
-  "selasa" : "Kambing Merah",
-  "rabu" : "Kambing Betina",
-  "kamis" : "Domba",
-  "jumat" : "Sapi",
-  "sabtu" : "Kambing Betina",
-  "minggu" : "Kambing Merah",
+  "selasa" : "Colokan Listrik",
+  "rabu" : "Duri Landak",
+  "kamis" : "Naga Hitam",
+  "jumat" : "Susanoo",
+  "sabtu" : "Labi Labi",
+  "minggu" : "Remot AC",
 }
 
 alert("SELAMAT DATANG DI WEB KHODAM CEKK!!");
