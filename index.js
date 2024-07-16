@@ -8,13 +8,13 @@ const user = {
 };
 
 const hari_lahir = {
-  "senin" : "Macan Kumbang",
-  "selasa" : "Colokan Listrik",
-  "rabu" : "Duri Landak",
-  "kamis" : "Naga Hitam",
-  "jumat" : "Susanoo",
-  "sabtu" : "Labi Labi",
-  "minggu" : "Remot AC",
+  "SENIN" : "Macan Kumbang",
+  "SELASA" : "Colokan Listrik",
+  "RABU" : "Duri Landak",
+  "KAMIS" : "Naga Hitam",
+  "JUMAT" : "Susanoo",
+  "SABTU" : "Labi Labi",
+  "MINGGU" : "Remot AC",
 }
 
 alert("SELAMAT DATANG DI WEB KHODAM CEKK!!");
@@ -39,7 +39,7 @@ while (userInputPassword !== user.password) {
 
 
 // Kamu bisa mengerjakan soal no 3 dibawah sini 
-let userInputBirthMonth = prompt("Masukkan hari apa kamu lahir!");
+let userInputBirthMonth = prompt("Masukkan hari apa kamu lahir!").toUpperCase();
 if (userInputBirthMonth in hari_lahir) {
   user.khodam = hari_lahir[userInputBirthMonth];
 } else {
