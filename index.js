@@ -7,11 +7,22 @@ const user = {
   khodam: "",
 };
 
+const hari_lahir = {
+  "senin" : "Macan Kumbang",
+  "selasa" : "Kambing Merah",
+  "rabu" : "Kambing Betina",
+  "kamis" : "Domba",
+  "jumat" : "Sapi",
+  "sabtu" : "Kambing Betina",
+  "minggu" : "Kambing Merah",
+}
+
 alert("SELAMAT DATANG DI WEB KHODAM CEKK!!");
 
 // Kamu bisa mengerjakan soal no 2 dibawah sini 
 user.name = prompt("Masukkan nama kamu:");
-
+wordCount = user.name.split(" ").length;
+console.log(wordCount);
 
 
 
@@ -19,13 +30,21 @@ user.name = prompt("Masukkan nama kamu:");
 // Kamu bisa mengerjakan soal no 1 dibawah sini 
 let userInputPassword = prompt("Masukkan Password:");
 
+while (userInputPassword !== user.password) {
+  countUserInputPassword++;
+  userInputPassword = prompt("Password Salah!Silahkan Masukkan Password:");
+}
 
 
 
 
 // Kamu bisa mengerjakan soal no 3 dibawah sini 
 let userInputBirthMonth = prompt("Masukkan hari apa kamu lahir!");
-
+if (userInputBirthMonth in hari_lahir) {
+  user.khodam = hari_lahir[userInputBirthMonth];
+} else {
+  user.khodam = "Khodam Tidak Ditemukan";
+}
 
 
 
